@@ -1,7 +1,8 @@
 const path = require('path');
+const CleanPlugin = require('clean-webpack-plugin');
 
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     // Il punto d'ingresso da utilizzare per ogni progetto
     entry: './src/app.ts',
     devServer: {
@@ -35,5 +36,8 @@ module.exports = {
     },
     resolve: {
         extensions: ['.ts', '.js']
-    }
+    },
+    plugins: [
+        new CleanPlugin.CleanWebpackPlugin()
+    ]
 }
