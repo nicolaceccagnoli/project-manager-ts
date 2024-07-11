@@ -1,8 +1,8 @@
 // Importiamo il modulo di Component
-import ComponentDefault from "./base-component.js";
-import * as Validation from "../utils/validation.js";
-import { Autobind as AutobindDecorator } from "../decorators/autobind.js";
-import { projectState } from "../state/project-state.js";
+import ComponentDefault from "./base-component";
+import * as Validation from "../utils/validation";
+import { Autobind as AutobindDecorator } from "../decorators/autobind";
+import { projectState } from "../state/project-state";
 
 
 /* 

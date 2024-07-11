@@ -1,7 +1,7 @@
-import { Draggable } from '../models/drag-drop.js'
-import { Project } from '../models/project.js';
-import ComponentDefault from './base-component.js';
-import { Autobind } from '../decorators/autobind.js';
+import { Draggable } from '../models/drag-drop'
+import { Project } from '../models/project';
+import ComponentDefault from './base-component';
+import { Autobind } from '../decorators/autobind';
 
 /*
     Definiamo una Classe base per l'elemento del Progetto
